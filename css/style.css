@@ -10577,8 +10577,8 @@ h1, h2, h3, h4, h5, .h1, .h2, .h3, .h4, .h5 {
   content: '';
   opacity: .4;
   /* background: #000000; */
-  /* background-image: linear-gradient( 
-    180deg, #35363A 11%, #F2295B00 75%); */
+  background-image: linear-gradient( 
+    180deg, #35363A 11%, #F2295B00 75%);
         opacity: 0.87;
 }
 
@@ -12628,7 +12628,7 @@ body{
   padding: 11em 3em;
   display: flex;
   align-items: center;
-  background-size: 100% 100%;
+  background-position: center;
 }
 .app .owl-carousel.home-slider .owl-dots {
   bottom: 25px;
